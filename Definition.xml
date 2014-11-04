@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="Maps" Description="Maps extension object" PageHeight="50000">
+	<Dimension Multiple="" Label="Dimensions:" TargetName="Dimension" />
+	<Expression Multiple="" Label="Expressions:" TargetName="Expression" />
+	<Text Label="Escala" Type="text" Expression="1.6"/>
+	<Text Label="Cor Países (#rgb)" Type="text" Expression="#c0c0c0"/>
+	<Text Label="Enable Zoom" Type="checkbox" Initial=""/>
+    <Initiate Name="Chart.Title" value="Maps" />
+	<Initiate Name="Caption.Text" Value="Maps" />
+</ExtensionObject>
